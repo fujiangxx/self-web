@@ -168,5 +168,136 @@
     font-size: 15px;
     text-decoration: none;
 }
+/*技能*/
+.skill-contain{
+    width: 1200px;
+    height:352px;
+    margin:0 auto;
+    position: relative;
+    padding-top: 170px;
+}
+.skill-contain h4{
+     text-align: center;
+     width: 100%;
+     height:30px;
+     line-height: 30px;
+     color:#fff;
+    font-size: 28px;
+    font-weight: 400;
+}
+.skill-contain  .myskills{
+    width: 400px;
+    height:212px;
+    position: absolute;
+    top:150px;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+.myskills a{
+    background-color: #1fcbb1;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.myskills a.stress {
+    background-color: #37ddc4;
+}
+.myskills a{
+    animation: zoomIn .2s ease both;
+    animation-delay: .1s;
+}
+.job-to{
+    width: 1200px;
+    height:350px;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+.job-to h4{
+    text-align: center;
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+    color:#fff;
+    font-size: 28px;
+    font-weight: 400;
+}
+.job-to .job-content{
+    width: 940px;
+    height:260px;
+    position: relative;
+    margin:30px auto;
+    /*overflow: hidden;*/
+}
+.job-content ul{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.job-content ul li{
+    width: 30%;
+    height:40%;
+    border:1px solid #ffc9d5;
+    position: relative;
+}
+.job-content ul li .job-content-pic{
+    width: 100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.job-content-pic img{
+    width: 100%;
+    height:100%;
+}
+.job-content ul li .job-content-text{
+    width: 100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    /*display: none;*/
+    z-index:200;
+    background: rgba(0,0,0,0.5);
+}
+.job-content-text p{
+    width: 100%;
+    margin-top:20px;
+    height:30px;
+    font-weight: 400;
+    font-size: 18px;
+    color:#bcf1f8;
+    line-height:30px;
+    text-align: center;
+}
+.job-content-text a{
+    display: block;
+    width: 100%;
+    margin-top:10px;
+    height:20px;
+    font-size: 16px;
+    color: #0a78f8;
+    line-height:20px;
+    text-align: center;
+}
+
 
 

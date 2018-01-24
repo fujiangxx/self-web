@@ -12,3 +12,8 @@ $(function(){
         menu:"#menu",
     });
 })
+
+//jquery.transit   在jquery中操作c3的属性   解决动画 实现动画的方式：
+//1.css添加transition $(this).css({})     2.css@framkeys move
+//$(this).css("aimation","")                    3.$(this).animate()   jquery
+// 4、 .
